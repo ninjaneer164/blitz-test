@@ -1,0 +1,51 @@
+.bar-chart {
+  width: 100%;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  color: var(--text-secondary);
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.value {
+  color: var(--white);
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.bar-wrapper {
+  height: 0.75rem;
+  position: relative;
+}
+
+.bar {
+  background-color: var(--bar-chart-bg-color);
+  border-radius: 0.125rem;
+  height: 0.5rem;
+  position: absolute;
+  top: 0.125rem;
+  width: 100%;
+}
+.bar-active {
+  background-color: var(--bar-chart-active-bg-color);
+}
+
+.value-indicator {
+  border-left: 0.125rem solid var(--primary-color);
+  height: 0.5rem;
+  position: absolute;
+  top: 0.125rem;
+}
+
+.avg-indicator {
+  border-left: 0.125rem solid var(--bar-chart-avg-border-color);
+  height: 0.75rem;
+  position: absolute;
+}

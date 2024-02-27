@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --primary-color: rgb(99, 207, 108);
+  --secondary-color: rgb(35, 68, 47);
+
+  --black: rgb(0, 0, 0);
+  --grey-0: rgb(19, 22, 28);
+  --grey-1: rgb(28, 31, 37);
+  --grey-2: rgb(40, 41, 48);
+  --grey-3: rgb(54, 56, 62);
+  --grey-4: rgb(138, 140, 146);
+  --white: rgb(255, 255, 255);
+
+  background-color: var(--black);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --card-bg-color: var(--grey-0);
+  --card-border-color: var(--grey-1);
+
+  --text-primary: var(--primary-color);
+  --text-secondary: var(--grey-4);
+  --text-tertiary: var(--white);
+
+  --block-bg-color: var(--grey-2);
+  --block-active-bg-color: var(--primary-color);
+  --block-border-color: var(--grey-3);
+
+  --slider-track-bg-color-0: rgba(99, 207, 108, 0.2);
+  --slider-track-bg-color-1: rgba(99, 207, 108, 1);
+
+  --circle-gauge-bg-color: var(--grey-2);
+  --circle-gauge-active-bg-color: var(--primary-color);
+
+  --column-chart-bg-color: var(--grey-2);
+  --column-chart-border-color: var(--grey-4);
+
+  --column-chart-active-bg-color: var(--secondary-color);
+  --column-chart-active-border-color: var(--primary-color);
+
+  --column-chart-level-border-color: var(--grey-4);
+
+  --bar-chart-bg-color: var(--grey-1);
+  --bar-chart-active-bg-color: var(--secondary-color);
+
+  --bar-chart-avg-border-color: rgb(168, 128, 67);
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+p {
+  margin: 0;
+}

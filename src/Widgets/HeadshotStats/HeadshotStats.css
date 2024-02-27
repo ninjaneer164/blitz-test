@@ -1,0 +1,27 @@
+.stats-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.title-wrapper {
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  z-index: 1;
+}
+
+.stats-detail {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.column-chart-wrapper {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.bar-chart-wrapper {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}

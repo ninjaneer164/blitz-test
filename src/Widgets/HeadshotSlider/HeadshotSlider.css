@@ -1,0 +1,11 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.value-title {
+  margin-bottom: 1.5rem;
+}
+.value-title p:first-of-type {
+  margin-bottom: 0.5rem;
+}

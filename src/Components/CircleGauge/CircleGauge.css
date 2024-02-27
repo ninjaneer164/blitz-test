@@ -1,0 +1,36 @@
+.circle-gauge {
+  height: 8rem;
+  position: relative;
+  width: 8rem;
+}
+
+.circle-gauge-outer {
+  border-radius: 50%;
+  height: 8rem;
+  position: absolute;
+  transform: rotate(-117deg);
+  width: 8rem;
+}
+
+.circle-gauge-outer_ {
+  border-radius: 50%;
+  height: 8rem;
+  position: absolute;
+  transform: rotate(-243deg);
+  width: 8rem;
+}
+
+.circle-gauge-inner {
+  align-items: center;
+  border-radius: 50%;
+  color: var(--text-primary);
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+  height: 7rem;
+  justify-content: center;
+  left: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  width: 7rem;
+}

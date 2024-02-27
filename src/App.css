@@ -1,0 +1,11 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  width: 20rem;
+}
+
+.widget-wrapper {
+  margin-bottom: 3rem;
+}
